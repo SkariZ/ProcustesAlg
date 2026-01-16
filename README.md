@@ -1,13 +1,20 @@
 # Procrustes-Based Image Alignment (PyQt5)
 
-An interactive PyQt5 application for **point-based alignment of two image frames** using a **similarity (Procrustes) transform**, with built-in quality control and batch application to folders or videos.
+<p align="center">
+  <img src="docs/screenshot_app.png" width="900">
+</p>
 
-This tool is designed for scientific imaging workflows where:
-- one image (**A**) defines a fixed reference frame,
-- another image (**B**) is transformed to match A,
-- and the resulting transform must be **reusable and geometrically correct** for future frames.
+<p align="center">
+  <em>
+  Interactive Procrustes alignment with point correspondences, residual vectors,
+  and a warped coordinate grid for sanity checking.
+  </em>
+</p>
 
----
+An interactive PyQt5 application for point-based alignment of two image frames
+using a similarity (Procrustes) transform, with built-in quality control and
+batch application to folders or videos.
+
 
 ## Key Concepts
 
